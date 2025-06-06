@@ -1,0 +1,11 @@
+{
+  "showInlineTitle": true,
+  "attachmentFolderPath": "files",
+  "promptDelete": false,
+  "vimMode": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "newFileFolderPath": "Вопросы",
+  "readableLineLength": true,
+  "strictLineBreaks": false
+}

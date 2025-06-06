@@ -1,0 +1,15 @@
+{
+  "accentColor": "",
+  "theme": "moonstone",
+  "interfaceFontFamily": "Cascadia Mono",
+  "textFontFamily": "Bahnschrift",
+  "monospaceFontFamily": "Cascadia Mono",
+  "showViewHeader": true,
+  "cssTheme": "AnuPpuccin",
+  "enabledCssSnippets": [
+    "custom-links",
+    "NotebookBackgrounds"
+  ],
+  "baseFontSize": 15,
+  "showRibbon": true
+}

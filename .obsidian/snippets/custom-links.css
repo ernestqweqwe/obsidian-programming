@@ -1,0 +1,10 @@
+/* Все внутренние ссылки */
+.cm-s-obsidian span.cm-link,
+.markdown-preview-view a.internal-link {
+  color: #ff6600; /* замени на нужный цвет */
+}
+
+/* Внутренние ссылки с якорями (#Заголовками) */
+.markdown-preview-view a.internal-link[href*="#"] {
+  color: #ff6600; /* другой цвет для якорей */
+}

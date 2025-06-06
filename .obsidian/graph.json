@@ -1,0 +1,22 @@
+{
+  "collapse-filter": false,
+  "search": "path:\"Технические вопросы\"  ",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 0.2,
+  "nodeSizeMultiplier": 1.30314061384725,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.427083333333333,
+  "repelStrength": 7.60416666666667,
+  "linkStrength": 1,
+  "linkDistance": 177,
+  "scale": 0.3427073033360081,
+  "close": false
+}
