@@ -1,0 +1,3 @@
+- **SSR (Server-Side Rendering)**: HTML генерируется на сервере при каждом запросе. Используется для динамического контента (например, профили пользователей). Метод: getServerSideProps.
+- **SSG (Static Site Generation)**: HTML создается на этапе сборки, подходит для статического контента (например, блоги). Метод: getStaticProps.
+- **ISR (Incremental Static Regeneration)**: Статические страницы обновляются в фоне после сборки через заданный интервал (revalidate в getStaticProps). Баланс между SSG и SSR.

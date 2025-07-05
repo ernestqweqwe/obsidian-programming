@@ -300,7 +300,7 @@
     "settings": {
       "codeblock": {
         "lineNumbers": true,
-        "unwrapLines": false,
+        "unwrapLines": true,
         "wrapLinesActive": false,
         "curvature": 4
       },
@@ -349,7 +349,7 @@
       "advanced": {
         "gradientHighlights": false,
         "gradientHighlightsColourStop": "70%",
-        "languageBorderColour": true,
+        "languageBorderColour": false,
         "languageBorderWidth": 5,
         "iconSize": 28
       }

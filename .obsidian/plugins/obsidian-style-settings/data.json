@@ -144,5 +144,6 @@
   "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-Gruvbox-dark",
   "anuppuccin-theme-settings@@anuppuccin-accent-toggle": true,
   "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-frappe",
-  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-lavender"
+  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-lavender",
+  "anuppuccin-theme-settings@@anp-code-bg-color@@light": "#000000"
 }

@@ -1,1 +1,10 @@
-{}
+{
+  "editing-toolbar:editor:insert-callout": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Q"
+    }
+  ]
+}
