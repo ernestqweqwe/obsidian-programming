@@ -24,10 +24,24 @@ fs.readdirSync(rootDir).forEach(folder => {
   folders.push(folderContent);
 });
 
-// Разделяем папки на две колонки
-const midIndex = Math.ceil(folders.length / 2);
-const leftColumn = folders.slice(0, midIndex);
-const rightColumn = folders.slice(midIndex);
+// Сортируем папки по количеству контента (от большего к меньшему)
+folders.sort((a, b) => b.length - a.length);
+
+// Распределяем папки по колонкам балансируя по объему контента
+const leftColumn = [];
+const rightColumn = [];
+let leftSize = 0;
+let rightSize = 0;
+
+folders.forEach(folder => {
+  if (leftSize <= rightSize) {
+    leftColumn.push(folder);
+    leftSize += folder.length;
+  } else {
+    rightColumn.push(folder);
+    rightSize += folder.length;
+  }
+});
 
 // Создаем таблицу
 let result = '| Колонка 1 | Колонка 2 |\n';
