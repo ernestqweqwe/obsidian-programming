@@ -15,19 +15,19 @@ fs.readdirSync(rootDir).forEach(folder => {
   const files = fs.readdirSync(folderPath).filter(f => f.endsWith('.md'));
   if (files.length === 0) return;
 
-  let folderContent = `**${folder.toUpperCase()}**<br><br>`;
-  files.forEach(file => {
-    console.log(file);
-    folderContent += `[[${file}]]<br>`;
-  });
+  const folderData = {
+    name: folder,
+    files: files,
+    size: files.length
+  };
   
-  folders.push(folderContent);
+  folders.push(folderData);
 });
 
-// Сортируем папки по количеству контента (от большего к меньшему)
-folders.sort((a, b) => b.length - a.length);
+// Сортируем по размеру (от большего к меньшему)
+folders.sort((a, b) => b.size - a.size);
 
-// Распределяем папки по колонкам балансируя по объему контента
+// Распределяем по колонкам балансируя размер
 const leftColumn = [];
 const rightColumn = [];
 let leftSize = 0;
@@ -36,24 +36,38 @@ let rightSize = 0;
 folders.forEach(folder => {
   if (leftSize <= rightSize) {
     leftColumn.push(folder);
-    leftSize += folder.length;
+    leftSize += folder.size;
   } else {
     rightColumn.push(folder);
-    rightSize += folder.length;
+    rightSize += folder.size;
   }
 });
 
-// Создаем таблицу
-let result = '| Колонка 1 | Колонка 2 |\n';
-result += '|-----------|----------|\n';
+// Создаем результат
+let result = '# Список вопросов\n\n';
+result += '## Левая колонка\n\n';
 
-// Заполняем таблицу построчно
-const maxRows = Math.max(leftColumn.length, rightColumn.length);
-for (let i = 0; i < maxRows; i++) {
-  const left = leftColumn[i] || '';
-  const right = rightColumn[i] || '';
-  result += `| ${left} | ${right} |\n`;
-}
+// Левая колонка
+leftColumn.forEach(folder => {
+  console.log(folder.name);
+  result += `### ${folder.name.toUpperCase()}\n`;
+  folder.files.forEach(file => {
+    result += `- [[${file}]]\n`;
+  });
+  result += '\n';
+});
+
+result += '---\n\n## Правая колонка\n\n';
+
+// Правая колонка
+rightColumn.forEach(folder => {
+  console.log(folder.name);
+  result += `### ${folder.name.toUpperCase()}\n`;
+  folder.files.forEach(file => {
+    result += `- [[${file}]]\n`;
+  });
+  result += '\n';
+});
 
 fs.writeFileSync(outputFile, result, 'utf-8');
 console.log('Создан:', outputFile);

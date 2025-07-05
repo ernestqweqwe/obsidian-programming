@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Технические вопросы/JS/0. Critical Render Path (CRP).md",
+                "file": "Technical/Список вопросов.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "0. Critical Render Path (CRP)"
+              "title": "Список вопросов"
             }
           },
           {
@@ -38,18 +38,18 @@
             }
           },
           {
-            "id": "48409dfb2484c575",
+            "id": "cd3f786ff01c46f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Technical/Список вопросов.md",
-                "mode": "preview",
+                "file": "Technical/JS/3. Promise(промис).md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Список вопросов"
+              "title": "3. Promise(промис)"
             }
           }
         ],
@@ -110,7 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 256.5
   },
   "right": {
     "id": "ae4d1edf8a365b8a",
@@ -215,35 +215,36 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "48409dfb2484c575",
+  "active": "cd3f786ff01c46f2",
   "lastOpenFiles": [
-    "Структура обсидиана.md",
-    "Technical/Список вопросов.md",
     "Technical/CSS/0. Комбинаторы селекторов.md",
-    "Technical/CSS/Без названия.md",
-    "Без названия.md",
-    "Technical/0. Комбинаторы селекторов..md",
-    "Technical/0. Специфичность селекторов..md",
-    "Без названия 1.md",
-    "Technical/combined.md",
+    "Без названия 2.md",
     "Technical/Сети/1. HTTP.md",
-    "combined.md",
-    "Technical/Сети/HTTP/Простые и сложные запросы(preflight).md",
+    "Technical/Сети/3. Что происходит при вводе url в поисковую строку.md",
     "Technical/Сети/HTTP/Отличие Get от Post.md",
-    "Technical/Сети/HTTP/Коды.md",
-    "Technical/Сети/HTTP/URL.md",
-    "Technical/Сети/HTTP/HTTP методы.md",
-    "Technical/Сети/HTTP/HTTP заголовки.md",
-    "Technical/Сети/HTTP/HTTP версии.md",
-    "Technical/Сети/HTTP/HEAD.md",
-    "Technical/Сети/TLS.md",
-    "Technical/Сети/SSR SSG ISR.md",
+    "Technical/CSS/7.1 GRID.md",
+    "Technical/CSS/CSS-префиксы (вендорные префиксы).md",
+    "ДОБАВИТЬ В МАТЕРИАЛ.md",
+    "Technical/Список вопросов.md",
+    "Technical/JS/0. Critical Render Path (CRP).md",
+    "Technical/JS/7. Async Defer.md",
     "Technical/Сети/Preload, Prefetch, Preconnect, DNS-prefetch, Prerender.md",
-    "Technical/Сети/HTTP",
-    "Technical/Сети/6. WebSocket, Server Sent Events и Long Polling.md",
     "Technical/Сети/5. OAuth 2.0.md",
-    "Technical/Сети/4. JWT.md",
-    "Technical/Сети/2. CORS (Cross-Origin Resource Sharing).md",
+    "Technical/Сети/HTTP/Коды.md",
+    "Technical/Патерны/1. DRY KISS YAGNI SOLID.md",
+    "Technical/Ts/4. Дженерики(generics).md",
+    "Technical/Ts/5. Объединение(union) Пересечение (intersection).md",
+    "Technical/Ts/Пересечение типов(intersection types).md",
+    "Technical/Ts/3. Типы TS.md",
+    "Technical/CSS/7. FLEX.md",
+    "вопросы к собесам.md",
+    "Без названия 12.md",
+    "Без названия 1.md",
+    "Без названия.md",
+    "Воскр зозвон 29.06.md",
+    "Структура обсидиана.md",
+    "Soft",
+    "Technical/Сети/HTTP",
     "Technical/Сети",
     "Technical/Патерны",
     "Technical/Задачки",
@@ -252,7 +253,6 @@
     "Technical/script.js",
     "Technical/React",
     "Technical/JS",
-    "Technical/HTML",
     "files/Pasted image 20250630151225.png",
     "files/Pasted image 20250620090252.png",
     "files/Pasted image 20250603115346.png",
