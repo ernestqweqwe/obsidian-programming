@@ -6,6 +6,6 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
   "newFileFolderPath": "Вопросы",
-  "readableLineLength": true,
+  "readableLineLength": false,
   "strictLineBreaks": false
 }
